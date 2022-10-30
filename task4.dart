@@ -12,4 +12,8 @@ void main() {
   //update country name
   m["Country"] = "Srilanka";
   print(m);
+  //all keys
+  print(m.keys);
+  //all values
+  print(m.values);
 }
