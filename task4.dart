@@ -11,9 +11,9 @@ void main() {
   print(m);
   //update country name
   m["Country"] = "Srilanka";
-  print(m);
+  print("Updated Map:$m");
   //all keys
-  print(m.keys);
+  print("Keys :${m.keys}");
   //all values
-  print(m.values);
+  print("Values :${m.values}");
 }

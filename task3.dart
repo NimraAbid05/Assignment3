@@ -5,6 +5,8 @@ void main() {
   n.addAll(["Asma", "Nadia", "Maha", "Aliya", "Ayesha", "Maheen", "Maha"]);
   print(n);
   print("Names start with Alphabet A");
-  n.where((a) => true);
+  n.where(
+    (a) => true,
+  );
   print(n);
 }
